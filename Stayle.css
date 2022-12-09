@@ -26,7 +26,7 @@
    
    
    body{
-   background:linear-gradient(rgba(0, 0, 0, 0.863),rgba(0, 0, 0, 0.842)) rgba(63, 14, 14, 0.705);
+   background:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
    height: 500vh;
    width: 100%;
    display: flex;
@@ -40,10 +40,10 @@
    
    
    .container{
-   width: 100%;
+   width: 99%;
    height: 100%;
    background: rgba(0, 0, 0, 0.63);
-   border-radius: 100px;
+   border-radius: 80px;
    overflow: hidden;
    scroll-padding: 10%;
    }
@@ -312,7 +312,7 @@ color: rgb(0, 225, 255);
 text-decoration: none;
 font-size: 30px;
 justify-content: center;
-
+transform: translate(-1%);
 
 }
 .img1{
@@ -372,34 +372,56 @@ body {
 
 
  .rot1{
+font-size: 35px;
 
 
- }
 
-
+}
  .rot2{
-
+font-size: 30px;
+justify-items: center;
+color: rgb(235, 252, 0);
+transform: translate(-1%);
 
 
  }
 
  .rot3{
-font-size: 30px;
+font-size: 35px;
 font-weight: 100px;
 text-decoration:underline;
 color: rgb(0, 255, 85);
+transform: translate(-1%);
 
  }
+
+.rot4{
+font-size: 30px;
+font-weight:200;
+transform: translate(-1%);
+color: rgb(220, 255, 65);
+
+
+
+
+
+
+}
+
+
 
 
 .li2{
 color: rgb(131, 255, 218);
 text-decoration: underline ;
-
+transform: translate(-1%);
 }
 
 .five{
 color: rgb(255, 0, 0);
 text-decoration: underline;
-font-size: 20px;
+font-size: 25px;
 }
+
+
+
