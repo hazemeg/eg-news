@@ -11724,3 +11724,18 @@ body {
 
 
 
+.text19{
+font-size: 25px;
+font-weight: 3000;
+text-decoration: none;
+
+
+}
+
+.text19:hover{
+font-size: 35px;
+transition: 1s;
+color:green;
+background-color: #191c1f;
+border-radius: 25px;
+}
