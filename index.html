@@ -193,7 +193,20 @@ It is a site for collecting Egyptian achievements in a simple way
               <li><i class="ri-check-double-line"></i> free Website</li>
               <li><i class="ri-check-double-line"></i> Safe and easy</li>
               <li><i class="ri-check-double-line"></i> Browse safely and quickly</li>
+          
+            <script>
+  // Get the total number of visits
+  var visits = 0;
+  if (localStorage.getItem('visits')) {
+    visits = parseInt(localStorage.getItem('visits'));
+  }
+  visits++;
+  localStorage.setItem('visits', visits);
+  console.log('Total visits: ' + visits);
+</script>
+            
             </ul>
+           
             <a href="#footer" class="btn-learn-more">Learn More</a>
 
           </div>
