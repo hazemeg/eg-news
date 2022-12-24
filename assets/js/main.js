@@ -4,8 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-window.alert("تم تهكيرك من قبل حازم")
-
 (function() {
   "use strict";
 
