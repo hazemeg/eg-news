@@ -84,27 +84,29 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ed502e;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
+  background: #ffffff00;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  transition: all 1.8;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: rgb(255, 123, 0);
   line-height: 0;
+  transition: 2s;
 }
 
 .back-to-top:hover {
-  background: #000000;
+  background: #0f0505ce;
   color: rgb(255, 255, 255);
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  transition: 2s;
 }
 
 /*--------------------------------------------------------------
@@ -120,7 +122,7 @@ background-color: #17185ace;
 
 #header.header-scrolled {
   padding: 12px 0;
-  box-shadow: 0px 2px 15px rgb(0, 255, 242);
+  box-shadow: 0px 2px 15px rgb(212, 94, 193);
 }
 
 #header .logo {
@@ -603,7 +605,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0f2f57;
+  color: #ff7300;
 }
 
 /*--------------------------------------------------------------
@@ -1945,7 +1947,7 @@ ul.breadcrumb li a:hover {
 
 
 .mobile-nav-toggle {
-  color: #097de9;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1954,7 +1956,7 @@ ul.breadcrumb li a:hover {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 991px) {
@@ -1974,8 +1976,8 @@ ul.breadcrumb li a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(28, 47, 65, 0.9);
-  transition: 0.3s;
+  background: rgba(66, 57, 57, 0.473);
+  transition: 3s;
   z-index: 999;
 }
 
@@ -1993,7 +1995,7 @@ ul.breadcrumb li a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: rgba(224, 224, 224, 0.856);
+  background-color: rgb(224, 224, 224);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -2006,8 +2008,9 @@ ul.breadcrumb li a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #0095ff;
   border: none;
+  border-radius: 30px;
 }
 
 .navbar-mobile a:hover,
@@ -2085,5 +2088,9 @@ border-radius: 50px;
   background-color: #333333;
   color: #ffffff;
 }
+
+
+
+
 
 
