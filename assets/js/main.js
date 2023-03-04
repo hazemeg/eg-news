@@ -239,14 +239,14 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   *  lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   *  slider
    */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
@@ -279,9 +279,7 @@
    */
   new PureCounter();
 
-})()
-
-
+})();
 
 
 
