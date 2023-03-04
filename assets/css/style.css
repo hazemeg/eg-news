@@ -1133,11 +1133,12 @@ ul.breadcrumb li a:hover {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .mobile-nav-toggle.bi-x {
   color: rgb(255, 255, 255);
+  transition: 3s;
 }
 
 @media (max-width: 991px) {
@@ -1166,6 +1167,7 @@ ul.breadcrumb li a:hover {
   position: absolute;
   top: 15px;
   right: 15px;
+  transition: 3s;
 }
 
 .navbar-mobile ul {
@@ -1178,7 +1180,8 @@ ul.breadcrumb li a:hover {
   padding: 10px 0;
   background-color: rgb(224, 224, 224);
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 3.3s;
+  border-radius: 20px;
 }
 
 .navbar-mobile>ul>li {
@@ -1189,16 +1192,17 @@ ul.breadcrumb li a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0095ff;
+  color: #000000;
   border: none;
   border-radius: 30px;
+  font-weight: 900;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #000000;
-  background-color: #0274d838;
+  background-color: #d85b025e;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1271,7 +1275,47 @@ border-radius: 50px;
 }
 
 
+.elshaimaa{
+text-decoration: none;
+font-weight: 700;
+color: #24dbf7;
+font-size: 15;
+}
 
+.elshaimaa:hover{
+font-weight: 920;
+transition: 2s;
+color: #f86300 ;
+text-decoration: none;
+}
 
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
 
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 
